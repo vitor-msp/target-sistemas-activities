@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/vitor-msp/target-sistemas-activities/issues"
   },
-  "homepage": "https://github.com/vitor-msp/target-sistemas-activities#readme"
+  "homepage": "https://github.com/vitor-msp/target-sistemas-activities#readme",
+  "type": "module"
 }
