@@ -1,9 +1,4 @@
-import readline from "readline";
-
-const ui = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+import { ui } from "./utils/ui";
 
 const inputIsValid = (input) => {
   return !isNaN(input);
