@@ -1,4 +1,4 @@
-import { provinceInvoicing } from "./question-4";
+import { provinceInvoicing } from "./index";
 
 export const INVOICING_ENTRIES: provinceInvoicing[] = [
   { name: "SP", value: 67836.43 },
