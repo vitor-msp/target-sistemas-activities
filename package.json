@@ -4,7 +4,8 @@
   "description": "activities of the Target Sistemas",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "rm -rf ./dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,7 @@
     "url": "https://github.com/vitor-msp/target-sistemas-activities/issues"
   },
   "homepage": "https://github.com/vitor-msp/target-sistemas-activities#readme",
-  "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.9.3"
   }
 }
