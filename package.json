@@ -1,0 +1,19 @@
+{
+  "name": "target-sistemas-activities",
+  "version": "1.0.0",
+  "description": "activities of the Target Sistemas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitor-msp/target-sistemas-activities.git"
+  },
+  "author": "vitor7jan@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitor-msp/target-sistemas-activities/issues"
+  },
+  "homepage": "https://github.com/vitor-msp/target-sistemas-activities#readme"
+}
