@@ -16,5 +16,8 @@
     "url": "https://github.com/vitor-msp/target-sistemas-activities/issues"
   },
   "homepage": "https://github.com/vitor-msp/target-sistemas-activities#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
 }
