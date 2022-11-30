@@ -1,4 +1,6 @@
-export const INVOICING_ENTRIES = [
+import { dailyBilling } from "./index";
+
+export const INVOICING_ENTRIES: dailyBilling[] = [
   {
     day: 1,
     value: 22174.1664,

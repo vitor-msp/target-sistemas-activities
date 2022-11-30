@@ -1,6 +1,6 @@
 import { INVOICING_ENTRIES } from "./invoicing";
 
-type dailyBilling = {
+export type dailyBilling = {
   day: number;
   value: number;
 };
