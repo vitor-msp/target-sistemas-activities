@@ -1,4 +1,4 @@
-import { prompt } from "./utils/ui";
+import { prompt } from "../utils/ui";
 
 const inputIsValid = (input) => {
   return !isNaN(input);

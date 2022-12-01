@@ -1,4 +1,4 @@
-import { prompt } from "./utils/ui";
+import { prompt } from "../utils/ui";
 
 class StringReverse {
   constructor(private readonly input: string) {}
