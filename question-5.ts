@@ -15,7 +15,7 @@ class StringReverse {
 }
 
 export abstract class StringReverseApp {
-  public static async run(): Promise<void> {
+  public static run(): void {
     const USER_QUESION = `Enter a string to reverse: `;
     const input: string = prompt(USER_QUESION);
     const reversedInput = new StringReverse(input).reverse();
