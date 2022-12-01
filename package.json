@@ -4,7 +4,7 @@
   "description": "activities of the Target Sistemas",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./dist/index.js",
     "build": "rm -rf ./dist && tsc"
   },
   "repository": {
