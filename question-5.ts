@@ -1,4 +1,4 @@
-import { ui } from "./utils/ui";
+import { prompt } from "./utils/ui";
 
 class StringReverse {
   constructor(private readonly input: string) {}
@@ -17,10 +17,8 @@ class StringReverse {
 export abstract class StringReverseApp {
   public static async run(): Promise<void> {
     const USER_QUESION = `Enter a string to reverse: `;
-    await ui.question(USER_QUESION, (input: string) => {
-      const reversedInput = new StringReverse(input).reverse();
-      console.log(`Reversed input: ${reversedInput}`);
-      ui.close();
-    });
+    const input: string = prompt(USER_QUESION);
+    const reversedInput = new StringReverse(input).reverse();
+    console.log(`Reversed input: ${reversedInput}`);
   }
 }
