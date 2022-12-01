@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/vitor-msp/target-sistemas-activities#readme",
   "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }
