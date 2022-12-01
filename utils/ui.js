@@ -1,6 +1,3 @@
-import readline from "readline";
+import promptSync from "prompt-sync";
 
-export const ui = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+export const prompt = promptSync();
