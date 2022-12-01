@@ -1,4 +1,4 @@
-import { ui } from "./utils/ui";
+import { prompt } from "./utils/ui";
 
 const inputIsValid = (input) => {
   return !isNaN(input);
@@ -35,17 +35,14 @@ const printResult = (number, numberIsInFibonacci) => {
   console.log(message);
 };
 
-export const init = async () => {
+export const init = () => {
   const USER_QUESION = `Enter a number to test if it is contained in the Fibonacci sequence: `;
-
-  ui.question(USER_QUESION, (input) => {
-    if (inputIsValid(input)) {
-      const numberToTest = +input;
-      const result = numberIsInFibonacci(numberToTest);
-      printResult(numberToTest, result);
-    } else {
-      console.log(`Invalid input.`);
-    }
-    ui.close();
-  });
+  const input = prompt(USER_QUESION);
+  if (inputIsValid(input)) {
+    const numberToTest = +input;
+    const result = numberIsInFibonacci(numberToTest);
+    printResult(numberToTest, result);
+  } else {
+    console.log(`Invalid input.`);
+  }
 };
