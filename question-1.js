@@ -1,4 +1,4 @@
-const calculateSum = () => {
+export const calculateSum = () => {
   let index = 13,
     sum = 0,
     k = 0;
@@ -10,5 +10,3 @@ const calculateSum = () => {
 
   console.log(`The result is: ${sum}`);
 };
-
-calculateSum();

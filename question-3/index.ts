@@ -49,16 +49,20 @@ class Invoicing {
   }
 }
 
-const invoicing = new Invoicing(INVOICING_ENTRIES);
-console.log(
-  `The lowest billing: ${JSON.stringify(invoicing.getLowestBilling())}`
-);
-console.log(
-  `The highest billing: ${JSON.stringify(invoicing.getHighestBilling())}`
-);
-invoicing.calculateBillingAverage();
-console.log(
-  `The count of the days with above average billing: ${JSON.stringify(
-    invoicing.getCountDaysWithAboveAverageBilling()
-  )}`
-);
+export abstract class InvoicingApp {
+  public static run(): void {
+    const invoicing = new Invoicing(INVOICING_ENTRIES);
+    console.log(
+      `The lowest billing: ${JSON.stringify(invoicing.getLowestBilling())}`
+    );
+    console.log(
+      `The highest billing: ${JSON.stringify(invoicing.getHighestBilling())}`
+    );
+    invoicing.calculateBillingAverage();
+    console.log(
+      `The count of the days with above average billing: ${JSON.stringify(
+        invoicing.getCountDaysWithAboveAverageBilling()
+      )}`
+    );
+  }
+}

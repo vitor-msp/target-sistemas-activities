@@ -14,14 +14,13 @@ class StringReverse {
   }
 }
 
-abstract class StringReverseApp {
-  public static run(): void {
+export abstract class StringReverseApp {
+  public static async run(): Promise<void> {
     const USER_QUESION = `Enter a string to reverse: `;
-    ui.question(USER_QUESION, (input: string) => {
+    await ui.question(USER_QUESION, (input: string) => {
       const reversedInput = new StringReverse(input).reverse();
       console.log(`Reversed input: ${reversedInput}`);
       ui.close();
     });
   }
 }
-StringReverseApp.run();

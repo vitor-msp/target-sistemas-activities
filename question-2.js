@@ -35,7 +35,7 @@ const printResult = (number, numberIsInFibonacci) => {
   console.log(message);
 };
 
-const init = async () => {
+export const init = async () => {
   const USER_QUESION = `Enter a number to test if it is contained in the Fibonacci sequence: `;
 
   ui.question(USER_QUESION, (input) => {
@@ -49,5 +49,3 @@ const init = async () => {
     ui.close();
   });
 };
-
-init();

@@ -39,10 +39,14 @@ class Invoicing {
   }
 }
 
-const invoicing = new Invoicing(INVOICING_ENTRIES);
-invoicing.calculateTotalBilling();
-console.log(
-  `Percent billing by province: ${JSON.stringify(
-    invoicing.getPercentBillingByProvince()
-  )}`
-);
+export abstract class InvoicingApp {
+  public static run(): void {
+    const invoicing = new Invoicing(INVOICING_ENTRIES);
+    invoicing.calculateTotalBilling();
+    console.log(
+      `Percent billing by province: ${JSON.stringify(
+        invoicing.getPercentBillingByProvince()
+      )}`
+    );
+  }
+}
