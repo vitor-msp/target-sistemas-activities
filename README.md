@@ -72,14 +72,19 @@ Para executar o programa com as respostas, basta:
 git clone https://github.com/vitor-msp/target-sistemas-activities.git
 ```
 
-2. Buildar a aplicação:
+2. Acessar a pasta baixada:
 ```
-npm run build
+    cd target-sistemas-activities
 ```
 
-3. Executar a aplicação:
+3. Buildar a aplicação:
 ```
-npm run start
+    npm run build
+```
+
+4. Executar a aplicação:
+```
+    npm run start
 ```
 
 #### Obs.: necessário ter o [NodeJS](https://nodejs.org/en/) instalado.
