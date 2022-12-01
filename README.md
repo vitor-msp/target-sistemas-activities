@@ -1,4 +1,4 @@
-## Questions
+## Questões
 
 ---
 ### 1)
@@ -30,24 +30,24 @@ Esse número pode ser informado através de qualquer entrada de sua preferência
 ### 3)
 Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, faça um programa, na linguagem que desejar, que calcule e retorne:
 
-    • O menor valor de faturamento ocorrido em um dia do mês;
-    • O maior valor de faturamento ocorrido em um dia do mês;
-    • Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
+- O menor valor de faturamento ocorrido em um dia do mês;
+- O maior valor de faturamento ocorrido em um dia do mês;
+- Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.
 
 IMPORTANTE:
 
-    a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
-    b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
+- a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
+- b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
 
 ---
 ### 4)
 Dado o valor de faturamento mensal de uma distribuidora, detalhado por estado:
 
-    SP – R$67.836,43
-    RJ – R$36.678,66
-    MG – R$29.229,88
-    ES – R$27.165,48
-    Outros – R$19.849,53
+- SP – R$67.836,43
+- RJ – R$36.678,66
+- MG – R$29.229,88
+- ES – R$27.165,48
+- Outros – R$19.849,53
 
 Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora.
 
@@ -57,5 +57,29 @@ Escreva um programa que inverta os caracteres de um string.
 
 IMPORTANTE:
 
-    a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
-    b) Evite usar funções prontas, como, por exemplo, reverse;
+- a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+
+- b) Evite usar funções prontas, como, por exemplo, reverse;
+
+---
+
+## Respostas
+
+Para executar o programa com as respostas, basta:
+
+1. Clonar este repositório:
+```
+git clone https://github.com/vitor-msp/target-sistemas-activities.git
+```
+
+2. Buildar a aplicação:
+```
+npm run build
+```
+
+3. Executar a aplicação:
+```
+npm run start
+```
+
+#### Obs.: necessário ter o [NodeJS](https://nodejs.org/en/) instalado.
