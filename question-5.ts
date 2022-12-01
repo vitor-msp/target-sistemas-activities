@@ -7,8 +7,8 @@ class StringReverse {
     const inputList: string[] = this.input.split("");
     const reversedInputList: string[] = [];
     for (let index = inputList.length; index--; index >= 0) {
-      const currentCaracter: string = inputList[index];
-      reversedInputList.push(currentCaracter);
+      const currentCharacter: string = inputList[index];
+      reversedInputList.push(currentCharacter);
     }
     return reversedInputList.join("");
   }
