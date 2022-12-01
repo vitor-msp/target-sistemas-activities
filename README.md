@@ -74,17 +74,22 @@ git clone https://github.com/vitor-msp/target-sistemas-activities.git
 
 2. Acessar a pasta baixada:
 ```
-    cd target-sistemas-activities
+cd target-sistemas-activities
 ```
 
-3. Buildar a aplicação:
+3. Instalar as dependências:
 ```
-    npm run build
+npm install
 ```
 
-4. Executar a aplicação:
+4. Buildar a aplicação:
 ```
-    npm run start
+npm run build
+```
+
+5. Executar a aplicação:
+```
+npm run start
 ```
 
 #### Obs.: necessário ter o [NodeJS](https://nodejs.org/en/) instalado.
